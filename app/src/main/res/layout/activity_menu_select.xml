@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.miracles_pc.menudesign.MenuSelection">
+
+    <Button
+        android:id="@+id/btnDone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Done"
+        tools:layout_editor_absoluteX="293dp"
+        tools:layout_editor_absoluteY="3dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="11dp" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Food Item"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="435dp"
+        android:layout_marginBottom="37dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/Calories"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnDone"
+        android:layout_marginTop="47dp"
+        android:layout_toStartOf="@+id/btnBack"
+        android:text="Total Calories"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/Carbo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/Calories"
+        android:layout_below="@+id/Calories"
+        android:layout_marginTop="21dp"
+        android:text="Carbo" />
+
+    <TextView
+        android:id="@+id/Protein"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/Carbo"
+        android:layout_alignEnd="@+id/Calories"
+        android:layout_toStartOf="@+id/Calories"
+        android:text="Protein"
+        android:layout_alignTop="@+id/Carbo" />
+
+    <TextView
+        android:id="@+id/Fat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="39dp"
+        android:text="Fat"
+        android:layout_alignBaseline="@+id/Protein"
+        android:layout_alignBottom="@+id/Protein"
+        android:layout_toEndOf="@+id/Calories" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/Carbo"
+        android:layout_below="@+id/Carbo"
+        android:layout_marginTop="76dp"
+        android:text="ListMenuItem"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView6"
+        android:layout_below="@+id/textView6"
+        android:layout_marginTop="29dp"
+        android:text="ListMenuItem"
+        android:textSize="20dp" />
+</RelativeLayout>
