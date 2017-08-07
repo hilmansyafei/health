@@ -34,7 +34,7 @@ public class ListMenu extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
-
+        //tambahan
         mListView = (ListView) findViewById(R.id.listView);
         inputSearch = (EditText) findViewById(R.id.inputSearch);
         if (!calledAlready)
